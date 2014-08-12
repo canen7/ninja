@@ -1,0 +1,36 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Ninja disspaearing</title>
+	<meta charset="utf-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("img").click(function() {
+			$(this).fadeOut();
+		})
+
+		$("button").click(function(){
+			$("img").fadeIn();
+		})
+	})
+
+	</script>
+</head>
+<body>
+<p><h3>jQuery - assignment 1</h3></p>
+	<img src="ninja.jpeg">
+	<img src="ninja.jpeg">
+	<img src="ninja.jpeg">
+	<img src="ninja.jpeg">
+	<img src="ninja.jpeg">
+	<img src="ninja.jpeg">
+	<img src="ninja.jpeg">
+	<img src="ninja.jpeg">
+
+<button>RESTORE</button>
+
+</body>
+</html>
